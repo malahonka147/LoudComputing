@@ -1,0 +1,102 @@
+﻿
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.login {
+    max-width: 300px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #AAA;
+}
+
+h1 {
+    color: #009999;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn input {
+    
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius: 3px;
+    
+}
+
+.user {
+    background-image: url('Anh/Icon/user.png');
+    background-repeat: no-repeat;
+    background-position: 10px;
+   
+}
+
+.pass {
+    background-image: url('Anh/Icon/pass.png');
+    background-repeat: no-repeat;
+    background-position: 10px;
+   
+}
+
+.btn input[type=text] {
+    padding-left: 40px;
+    width: 245px;
+
+}
+
+.btn input[type=password] {
+    padding-left: 40px;
+    width:245px;
+}
+
+.dn input {
+    margin-top: 15px;
+    padding: 7.5px 15px;
+    border-radius: 3px;
+    background-color: #009999;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    margin-bottom: 10px;
+}
+
+    .input-box input {
+        padding: 7.5px 15px;
+        width: 100%;
+        border: 1px solid #cccccc;
+        outline: none;
+    }
+
+.dn input:hover {
+    background-color: #008080;
+}
+
+.dangnhap {
+    color: #009999;
+    float: left;
+    font-size:10px;
+    padding-bottom: 7px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #009999;
+}
+
+body {
+    background-color: #CCC;
+}
+.login a:hover {
+    text-decoration: underline;
+}
+

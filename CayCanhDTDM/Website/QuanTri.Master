@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QuanTri.master.cs" Inherits="Website.QuanTri1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CSSQuanTri.css" rel="stylesheet" />
+    
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="ckeditor/ckeditor.js"></script>
+    <script src="ckfinder/ckfinder.js"></script>
+    </head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div class="noidung">
+        <div class="leftmenu">
+        <ul>
+            <li>
+                <asp:Label ID="lbTenDN" runat="server"></asp:Label>
+                <hr />
+            </li>
+            <li><a href="Default.aspx">Trang Chủ</a></li>
+            <li>Quản Trị Danh Mục</li>
+            <ul class="con">
+                
+                <li class="SanPham"><a href="QuanTri.aspx">Sản Phẩm</a></li>
+                <li><a href="QuanTriLSP.aspx">Loại Sản Phẩm</a></li>
+                <li><a href="DanhSachBlog.aspx">Blog</a></li>
+            </ul>
+            <li>Quản Trị Đơn Hàng</li>
+            <ul class="con">
+                <li ><a href="DonHang.aspx">Đơn hàng</a></li>
+            </ul>
+            <li>Quản Trị tài khoản</li>
+            <ul class="con">
+                <li ><a href="QuanTriTaiKhoan.aspx">Tài khoản</a></li>
+            </ul>
+        </ul>
+        </div>
+        <div class="content">
+            <div class="quantri">
+            <asp:ContentPlaceHolder ID="head" runat="server">
+            
+                </asp:ContentPlaceHolder>
+                </div>
+            <div class="footer"> 
+      
+                Trang Quản Trị
+                <br />
+                Copyright @ 2020 @ by TTT . All right reserved.</div>
+            </div>
+            </div>
+            
+            
+
+    </form>
+</body>
+</html>

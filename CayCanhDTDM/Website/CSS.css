@@ -1,0 +1,374 @@
+﻿
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    display: table;
+    margin: auto;
+}
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+.header {
+    background-color: #e1f6f4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+td img.banner {
+    width: 100px;
+    height: 100px;
+}
+td.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 450px;
+
+}
+
+td.giohang i.fa {
+    font-size:35px;
+
+}
+td.giohang {
+    color: #5ba503;
+    cursor: pointer;
+}
+td.giohang a {
+    text-decoration: none;
+}
+
+td.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    background-color: #5ba503;
+    line-height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu li {
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    min-width: 120px;
+    position: relative;
+}
+
+
+
+    .menu a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .menu li:hover {
+        background-color: #060;
+    }
+
+.submenu li {
+    background-color: #5ba503;
+    line-height:40px;
+    width: 170px;
+    border-bottom-style: solid;
+    border-color: white;
+    border-width: thin;
+   
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    z-index:1;
+}
+
+li:hover .submenu {
+    display: block;
+}
+
+.content {
+    margin-top: 10px;
+    display: flex;
+    width: 1280px;
+}
+
+.leftmain {
+    width: 245px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: solid;
+    border-width: thin;
+    border-color: #5ba503;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.tieude {
+    color: white;
+    border-bottom: solid;
+    border-width: thin;
+    line-height: 40px;
+    background-color: #5ba503;
+    
+}
+
+i.fa {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+.rightmain {
+    width: 1025px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #5ba503;
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Danhsach, .Danhsacha {
+    border-style: solid;
+    border-width: thin;
+    border-color: #5ba503;
+    
+    width:245px;
+    
+}
+.Danhsach {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
+.footer {
+    border-style: solid;
+    border-width: thin;
+    background-color: #4E8910;
+    margin-top: 10px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.minicart {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    padding:10px;
+    border-radius:5px;
+    display: none;
+}
+td.giohang:hover .minicart{
+    display: block;
+    cursor:default;
+}
+.minicart li
+{
+    
+    margin-bottom:20px;
+    list-style:none;
+}
+    .minicart li button {
+        float: right;
+        background-color: white;
+        cursor: pointer;
+        border: none;
+        outline: 0;
+    }
+    .minicart li button:hover
+    {
+        color:gray;
+    }
+.minicart a{
+    text-decoration:none;
+}
+.minicart .xem {
+    
+    height: 30px;
+    margin-top:10px;
+    background-color: black;
+    text-align: center;
+    border-radius:5px;
+}
+.minicart .xem a{
+    text-decoration:none;
+    
+    font-weight:bold;
+    color:white;
+}
+
+.minicart .xem:hover a{
+    color:yellow;
+    
+}
+.btnDat {
+    outline: none;
+    border-color: #28a745;
+    border-style: solid;
+    padding: 10px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #28a745;
+    cursor: pointer;
+    text-decoration:none;
+    list-style:none;
+    
+}
+
+    .btnDat:hover {
+        background-color: #23923d;
+    }
+
+.Danhsachsp {
+    border-style: solid;
+    border-width: thin;
+    border-color: #5ba503;
+    background-color: #5ba503;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    line-height: 38px;
+    
+}
+.TenDSSP {
+    text-decoration: none;
+    color: #5e4d4a;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+    #myBtn:hover {
+        background-color: #555; 
+    }
+.tenSP {
+    color: #0053ff;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.btnXoa{
+    border:none;
+    outline:none;
+
+}
+
+
+.dropdown-btn {
+    outline: none;
+    background-color: #5ba503;
+    border: none;
+    font-size: 16px;
+    line-height: 40px;
+    color: white;
+}
+    .dropdown-btn:hover {
+        cursor: pointer;
+    }
+    .anh{
+        transition:all 0.5s ease-in;
+    }
+    .anh:hover
+    {
+        transform:scale(1.1);
+    }
+.blognd {
+    
+    margin: 5px;
+    padding: 5px;
+    width:235px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blogmenu {
+    width: 235px;
+    margin: 5px;
+    padding: 5px;
+    
+    
+}
+.Link {
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    -webkit-line-clamp: 3;
+    height: 60px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.kc
+{
+    
+    height:60px;
+}
+.ndbl {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 970px;
+    background-color: #eff1f3;
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.19);
+    border-width: thin;
+}
+.binhluannoidung
+{
+    margin:10px;
+}
+.phantrang
+{
+    text-align:center;
+}
+.ndtintuc
+{
+   
+    padding:10px;
+}
+.gvBlog {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+.fixcss {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.lbnd {
+    display: none;
+}
+.themdiv {
+    display: none;
+}

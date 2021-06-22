@@ -1,0 +1,89 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1360px;
+    display: table;
+    margin: auto;
+}
+.noidung
+{
+    display:flex;
+    height:auto;
+}
+.leftmenu {
+    background: #343a40;
+    width: 20%;
+    
+    color: white;
+    
+}
+.content {
+    width: 80%;
+    
+    background-color: #c2c7d0;
+}
+.leftmenu li {
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    
+}
+    .leftmenu li a {
+        text-decoration: none;
+        color:white;
+    }
+ul.con {
+    color: #c2c7d0;
+}
+ul.con
+{
+    padding-left:10px;
+}
+.leftmenu ul.con li:hover {
+    background-color: #6c757d;
+}
+.btnDat {
+    outline: none;
+    border-color: #28a745;
+    border-style: solid;
+    padding: 10px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #28a745;
+    cursor: pointer;
+    margin:5px;
+}
+
+    .btnDat:hover {
+        background-color: #23923d;
+    }
+.footer {
+    text-align: center;
+    
+    background-color: #28a745;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.quantri {
+    min-height: 640px;
+}
+.gvBlog {
+    white-space: nowrap;
+   
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.fixcss {
+    table-layout: fixed;
+    width:100%;
+}
+.lbnd {
+    display: none;
+}
